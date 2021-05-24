@@ -21,7 +21,7 @@ public class Member {
 	@Column(name = "member_id") // 따로 지정 안해주면 id로 올라감 
 	private Long id;
 	
-	private String username;
+	private String name;
 	
 	@Embedded // 내장타입을 포함했다. 한쪽만 있어도 무관함 
 	private Address address;
